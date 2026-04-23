@@ -1,78 +1,49 @@
-🚀 Mateus Nunes | Full-Stack Portfolio
-Este repositório contém o código-fonte do meu portfólio profissional, desenvolvido para apresentar meus projetos, habilidades técnicas e trajetória como estudante de Ciência da Computação e desenvolvedor de soluções inteligentes.
+# 🚀 Mateus Nunes | Full-Stack Portfolio
 
-🌐 Disponível em: Seu Link de Deploy (ex: meu-portfolio.vercel.app)
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+</p>
 
-📋 Sobre o Projeto
-O objetivo deste projeto foi construir uma plataforma de alta performance, responsiva e com design minimalista "High-End". Ele serve como o ponto central da minha identidade digital, conectando minhas experiências na área administrativa/logística com minha transição e evolução na engenharia de software.
+---
 
-Principais Funcionalidades:
-Apresentação Curatorial: Exibição de projetos principais (como o Gerenciador de Estoque e o Blog Spring Boot).
+## 📝 Sobre o Projeto
 
-Tech Stack Dinâmica: Visualização clara das tecnologias dominadas.
+Este é o meu portfólio profissional, desenvolvido para centralizar meus projetos, habilidades e trajetória acadêmica em Ciência da Computação. O design foi concebido com uma estética **High-End**, priorizando o minimalismo, tipografia limpa e uma experiência de usuário (UX) fluida.
 
-Design Responsivo: Otimizado para dispositivos móveis, tablets e desktops.
+Como desenvolvedor focado em **soluções inteligentes e automações**, utilizei este projeto para aplicar conceitos avançados de SEO, performance web e design responsivo.
 
-SEO & Performance: Configurado para carregamento rápido e visibilidade em motores de busca.
+---
 
-🛠️ Tecnologias Utilizadas
-Frontend
-React + Next.js: Framework para renderização híbrida e otimização de rotas.
+## 🛠️ Tecnologias e Ferramentas
 
-Tailwind CSS: Estilização utilitária para garantir um design moderno e limpo.
+### Frontend
+- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **Estilização:** [Tailwind CSS](https://tailwindcss.com/)
+- **Linguagem:** TypeScript para maior segurança e escalabilidade.
+- **Animações:** Framer Motion para transições suaves.
 
-TypeScript: Garantia de tipagem e maior segurança no desenvolvimento.
+### Infraestrutura & Deploy
+- **Hospedagem:** Vercel (CI/CD automático)
+- **Domínio:** Configuração personalizada via Hostinger.
+- **Analytics:** Vercel Insights para monitoramento de performance.
 
-Deployment & Infra
-Vercel: Hospedagem com CI/CD integrado.
+---
 
-Hostinger: Gestão de domínio personalizado.
+## 📂 Estrutura do Repositório
 
-🏗️ Estrutura de Arquivos
-Plaintext
-src/
-├── components/     # Componentes reutilizáveis (Botões, Navbar, Cards)
-├── sections/       # Seções principais (Hero, About, Projects, Contact)
-├── assets/         # Imagens, ícones e arquivos estáticos
-├── styles/         # Configurações globais de CSS/Tailwind
-└── data/           # JSONs com as informações dos projetos e experiências
-🚀 Como Executar o Projeto
-Clone o repositório:
+O projeto segue uma arquitetura modular e organizada para facilitar a manutenção:
 
-Bash
-git clone https://github.com/teusluv/meu-portfolio.git
-Acesse a pasta:
-
-Bash
-cd meu-portfolio
-Instale as dependências:
-
-Bash
-npm install
-# ou
-yarn install
-Inicie o servidor de desenvolvimento:
-
-Bash
-npm run dev
-O projeto estará rodando em http://localhost:3000.
-
-🛡️ Projetos em Destaque no Portfólio
-Dentro deste portfólio, você encontrará detalhes sobre:
-
-Inventory Manager: Sistema Full-Stack (Java/React) para controle de peças.
-
-Simple Blog: Estudo de caso em arquitetura de camadas com Spring Boot 3.
-
-Automações: Scripts e soluções voltadas para produtividade.
-
-✉️ Contato
-Sinta-se à vontade para entrar em contato para colaborações ou oportunidades profissionais:
-
-LinkedIn: linkedin.com/in/seu-perfil
-
-Email: seu-email@exemplo.com
-
-Instagram Profissional: @seu-user
-
-"Desenvolvendo soluções inteligentes e automações para o futuro." — Mateus Nunes
+```text
+├── public/          # Ativos estáticos (Imagens, SVGs, Favicon)
+├── src/
+│   ├── app/         # Rotas e páginas principais (Next.js App Router)
+│   ├── components/  # Componentes de UI reutilizáveis (Botões, Cards, Modais)
+│   ├── sections/    # Seções da landing page (Hero, Projetos, Sobre, Contato)
+│   ├── styles/      # Configurações globais e temas do Tailwind
+│   └── data/        # Arquivos JSON com o conteúdo dinâmico do portfólio
+├── tailwind.config.ts
+└── tsconfig.json
