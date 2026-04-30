@@ -1,6 +1,6 @@
 const skillsData = [
     { category: "Front-end", icon: "brush", techs: ["React.js", "Next.js", "TypeScript"] },
-    { category: "Back-end", icon: "storage", techs: ["Node.js", "Python", "Spring Boot", "FastAPI, Java"] },
+    { category: "Back-end", icon: "storage", techs: ["Node.js", "Python", "Spring Boot", "FastAPI", "Java" ] },
     { category: "Database", icon: "database", techs: ["SQL", "Supabase", "PostgreSQL"] },
     { category: "Automation", icon: "settings_suggest", techs: ["n8n", "Docker"] }
 ];
