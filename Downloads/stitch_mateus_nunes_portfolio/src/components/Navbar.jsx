@@ -6,8 +6,8 @@ export function Navbar() {
                 <div className="hidden md:flex items-center gap-8">
                     <a className="text-white/70 hover:text-white transition-all duration-300" href="#about">Sobre</a>
                     <a className="text-white/70 hover:text-white transition-all duration-300" href="#experience">Experiência</a>
-                    <a className="text-white/70 hover:text-white transition-all duration-300" href="#projects">Projetos</a>
                     <a className="text-white/70 hover:text-white transition-all duration-300" href="#skills">Habilidades</a>
+                    <a className="text-white/70 hover:text-white transition-all duration-300" href="#projects">Projetos</a>
                     <a className="text-white/70 hover:text-white transition-all duration-300" href="#testimonials">Depoimentos</a>
                 </div>
                 <div className="flex items-center gap-4">
