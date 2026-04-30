@@ -1,9 +1,4 @@
-const skillsData = [
-    { category: "Front-end", icon: "brush", techs: ["React.js", "Next.js", "TypeScript"] },
-    { category: "Back-end", icon: "storage", techs: ["Node.js", "Python", "Spring Boot", "FastAPI"] },
-    { category: "Database", icon: "database", techs: ["SQL", "Supabase", "PostgreSQL"] },
-    { category: "Automation", icon: "settings_suggest", techs: ["n8n", "Docker"] }
-];
+import { skillsData } from "./skillsData";
 
 export function Skills() {
     return (
